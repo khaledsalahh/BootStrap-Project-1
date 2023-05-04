@@ -1,0 +1,237 @@
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+a {
+    padding: 5px 20px !important;
+}
+
+.borderr {
+    border-right: 1px solid #33d1cc;
+}
+
+svg {
+    padding-top: 10px !important;
+}
+
+.btn {
+    padding: 8px 20px !important;
+    color: yellow;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.master {
+    background-color: #19283f;
+    position: sticky;
+    top: 0 !important;
+    z-index: 9999;
+}
+
+.active,
+svg {
+    color: #33d1cc !important;
+}
+
+a:hover {
+    color: #33d1cc !important;
+}
+
+.btn:hover {
+    color: yellow;
+}
+
+.full {
+    height: calc(100vh - 67.59px) !important;
+    background-color: #19283f;
+}
+
+h1,
+p {
+    color: white;
+}
+
+.text-center h1 {
+    font-weight: bold;
+}
+
+.text-center p {
+    color: #848c98;
+    font-weight: bold;
+}
+
+.feauters h3 {
+    color: black;
+    font-weight: bold;
+}
+
+.feauters {
+    position: relative;
+    line-height: 2.2;
+}
+
+.feauters p {
+    color: #939393;
+    font-weight: bold;
+    position: relative !important;
+}
+
+.feauters:before {
+    content: "";
+    width: 125px;
+    height: 2px;
+    background-color: #33d1cc;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo {
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    padding-top: 120px;
+}
+
+.logo h3 {
+    color: #ffcd2a;
+}
+
+.logo p {
+    color: #858585;
+}
+
+svg {
+    font-size: 35px !important;
+}
+
+.logo-master {
+    line-height: 2.5;
+}
+
+.fa-1,
+.fa-2,
+.fa-3 {
+    position: absolute;
+    height: 140px;
+    top: 0;
+    color: #eff7fa !important;
+    z-index: -1;
+    transform: translateX(-17px);
+    top: 15px;
+}
+
+.our-work {
+    background-color: #eff7fa;
+}
+
+.list-unstyled li {
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.list-unstyled .active {
+    background-color: #dc3545 !important;
+    color: yellow !important;
+}
+
+.list-unstyled .active:hover {
+    color: yellow !important;
+}
+
+.list-unstyled li:hover {
+    color: red !important;
+    cursor: pointer;
+}
+
+.position div {
+    position: relative !important;
+    overflow: hidden;
+}
+
+div[name-logo] {
+    color: white !important;
+    font-size: 25px;
+}
+
+.imgbefore {
+    width: fit-content;
+    position: relative;
+}
+
+.imgbefore {
+    margin-bottom: 5px;
+}
+
+.imgbefore::before {
+    content: attr(name-logo);
+    position: absolute;
+    height: calc(100% - 10px);
+    background-color: rgb(51 209 204 / 76%);
+    z-index: 9999;
+    left: 5px;
+    top: 5px;
+    width: 0;
+    transition: all 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-indent: -128px;
+    z-index: 1;
+}
+
+.imgbefore:hover::before {
+    width: calc(100% - 10px);
+    text-indent: 0;
+}
+
+.lorem {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.team {
+    background-color: #eff7fa;
+}
+
+.project {
+    background-color: #19283f;
+}
+
+.textt {
+    outline: none;
+}
+
+.textt {
+    border-bottom: 1px solid white !important;
+    padding: 8px 0;
+    caret-color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+.tech img {
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #19283f;
+}
+
+.footer li {
+    color: #7b8391;
+    list-style: none;
+    font-weight: bold;
+}
+
+.awsome svg {
+    padding: 10px;
+}
